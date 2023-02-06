@@ -2,5 +2,7 @@
 apiVersion: v1
 kind: DockerImages
 spec:
-  image: "httpd:2.4.54"
-  image: "bitnami/nginx:1.22"
+  httpd:
+    image: "httpd:2.4.54"
+  nginx:
+    image: "bitnami/nginx:1.22"
