@@ -1,3 +1,6 @@
 ---
-httpd:2.4.54
-bitnami/nginx:1.22
+apiVersion:v1
+kind: DockerImages
+spec:
+  httpd:2.4.54
+  bitnami/nginx:1.22
